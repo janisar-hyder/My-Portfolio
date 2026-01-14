@@ -1,0 +1,64 @@
+---
+title: "AI StudyMate: An Intelligent Learning Assistant"
+publishedAt: "2024-10-01"
+summary: "A web-based AI-powered learning platform that helps students summarize content, digitize handwritten notes, generate exam questions, and manage study materials using advanced AI models."
+images:
+  - "/images/projects/project-01/sm-0.png"
+  - "/images/projects/project-01/sm-1.png"
+  - "/images/projects/project-01/sm-2.png"
+  
+team:
+  - name: "Muhammad Janisar"
+    role: "Full Stack Developer"
+    avatar: "/images/projects/ai-studymate/avatar-janisar.jpg"
+    linkedIn: "https://www.linkedin.com/in/muhammad-janisar/"
+  - name: "Rao Muhammad Rafay"
+    role: "Software Engineer"
+    avatar: "/images/avatar.jpg"
+    linkedIn: "https://www.linkedin.com/in/rafay-rao/"
+
+---
+
+## Overview
+
+AI StudyMate is a comprehensive web-based intelligent learning assistant developed as a capstone project for a Bachelor's in Computer Science. The platform leverages artificial intelligence to address modern educational challenges by providing tools for content summarization, exam preparation, handwritten note digitization, and personalized learning. Students can upload study materials in various formats (PDFs, handwritten notes, YouTube videos) and receive AI-generated summaries, practice questions, and editable digital content.
+
+## Key Features
+
+- **AI-Powered Summarization**: Utilizes transformer-based models (T5) to generate concise summaries from uploaded documents and YouTube transcripts, condensing lengthy academic content for faster study.
+- **Handwriting Recognition & OCR**: Integrates Google OCR to convert handwritten notes into editable digital text, bridging traditional note-taking with digital learning tools.
+- **Intelligent Exam Preparation**: Generates personalized practice questions based on uploaded study notes and analyzes past paper patterns to create relevant exam-style questions.
+- **Secure Cloud Storage**: Provides encrypted cloud storage via Supabase, allowing students to save, access, and download their summaries, notes, and questions across devices.
+- **Multi-Device Support**: Fully responsive design ensuring consistent functionality across desktops, laptops, tablets, and smartphones.
+- **User Authentication & Security**: Implements secure registration/login using JWT tokens, bcrypt hashing, and HTTPS encryption to protect user data.
+
+## Technologies Used
+
+- **Frontend**: React.js with TypeScript, Tailwind CSS for responsive design
+- **Backend**: FastAPI (Python) and Node.js for high-performance APIs
+- **Database & Authentication**: Supabase (PostgreSQL, Auth, Storage)
+- **AI Services**: 
+  - ChatGPT API for text summarization and Q&A
+  - Gemini API for alternative AI processing
+  - ElevenLabs for voice generation and dubbing
+  - Google OCR for handwriting recognition
+- **Deployment & DevOps**: Docker, Vercel/Netlify, GitHub Actions for CI/CD
+- **Testing**: Postman for API testing, manual test cases for validation
+
+## Challenges and Learnings
+
+One of the main challenges was integrating multiple third-party AI services (ChatGPT, OCR, ElevenLabs) while maintaining system reliability and performance. We implemented modular architecture and auto-retry mechanisms to handle service failures gracefully. Another challenge was ensuring accurate OCR conversion for handwritten notes, which required preprocessing steps and quality validation to improve text extraction accuracy. The project enhanced our skills in AI integration, system design, secure authentication, and collaborative development across frontend, backend, and AI teams.
+
+## Outcome
+
+AI StudyMate successfully meets all functional and non-functional requirements outlined in the SRS document. The system was rigorously tested with a 93% success rate across 30 test cases, confirming stability, security, and usability. Key achievements include:
+- Successful implementation of AI-powered summarization and question generation
+- Accurate handwriting recognition through OCR technology
+- Robust user authentication and secure data management
+- Cross-platform compatibility and mobile responsiveness
+
+The platform is now ready for deployment and demonstrates the transformative potential of AI in education. Future enhancements may include multi-language support, LMS integration, collaborative features for group study, and a dedicated mobile application.
+
+---
+
+This project was developed as part of the Bachelor of Science in Computer Science program (2022–2026) under the supervision of Dr. M. Salman Iqbal.
