@@ -1,6 +1,7 @@
 import { getPosts } from "@/utils/utils";
-import { Column } from "@once-ui-system/core";
+import { Column, Row, SmartLink, Icon } from "@once-ui-system/core";
 import { ProjectCard } from "@/components";
+import { ExternalLink } from "lucide-react";
 
 interface ProjectsProps {
   range?: [number, number?];
