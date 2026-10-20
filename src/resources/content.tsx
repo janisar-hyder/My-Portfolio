@@ -50,7 +50,7 @@ const home: Home = {
   image: "/images/og/OG.png",
   label: "Home",
   title: `${person.name}'s Portfolio`,
-  description: `Full Stack Developer | React • Angular • Node.js • AWS • Supabase`,
+  description: `Full Stack Developer & Solution Engineer | React • Angular • Node.js • Python • Snowflake • AWS`,
  headline: (
   <>
     <span style={{ display: 'block' }}>Hi!</span>
@@ -102,10 +102,13 @@ const about: About = {
     title: "Summary",
     description: (
       <>
-        Full Stack Developer with hands‑on experience in building end‑to‑end web applications. 
-        Specialized in creating responsive frontends with React/Angular and robust backends with 
-        Node.js/Python. Proficient in implementing authentication systems, RESTful APIs, and 
-        deploying applications on AWS and Supabase infrastructure.
+        Full Stack Developer and Solution Engineer with 1+ years of experience building production
+        web applications, data optimization tools, and automated workflows. Proficient in React.js,
+        Next.js, Angular, Node.js, Express.js, Flask, and Python, with expertise in RESTful API
+        development, Snowflake and DBT query optimization, n8n workflow automation, and cloud
+        deployment on AWS. Delivered measurable results including 40% faster DBT transformations,
+        35% lower Snowflake compute costs, and 5+ hours weekly saved for analytics teams through LLM
+        integrations with GPT‑4o, Claude, and Google Gemini.
       </>
     ),
   },
@@ -114,12 +117,37 @@ const about: About = {
     title: "Experience",
     experiences: [
       {
-        company: "Asian Solutions Pvt. Ltd.",
-        timeframe: "July 2025 - October 2025",
-        role: "Full Stack Developer Intern",
-achievements: [
-  <>As a Full Stack Developer Intern, I developed and maintained an Admin Panel for a Single Sign‑On (SSO) application with comprehensive user management features. I implemented secure authentication flows and integrated the UI with backend REST APIs to handle real‑world data and security requirements. Through optimization of database queries, I improved application performance by 40%. I actively collaborated with the development team using Git version control and followed Agile methodologies throughout the project lifecycle.</>,
-],
+        company: "Infinytics.ai",
+        timeframe: "Feb 2026 - Present",
+        role: "Associate Solution Engineer (United States - Remote)",
+        achievements: [
+          <>Architected a Snowflake query optimization tool that analyzed warehouse usage patterns and reduced compute costs by 35% across 20+ production pipelines.</>,
+          <>Engineered a DBT (Data Build Tool) optimization engine that profiled model dependencies and accelerated transformation runtimes by 40% on large-scale datasets.</>,
+          <>Automated executive reporting and data enrichment using n8n workflows integrated with GPT-4o, Claude, and Gemini LLMs, saving the analytics team 5+ hours of manual work weekly.</>,
+        ],
+        images: [],
+      },
+      {
+        company: "Tamezy",
+        timeframe: "Mar 2026 - Jun 2026",
+        role: "Full Stack Developer (Bahrain - Remote)",
+        achievements: [
+          <>Spearheaded development of a cloud-based ERP and financial accounting platform for GCC-region SMEs using Angular 17+ (Standalone Components, Signals), Node.js, Express.js, and Prisma ORM.</>,
+          <>Built quote-to-cash and purchase processes spanning 8+ document types (Quotations, Invoices, Delivery Notes, Receipts, Credit/Debit Notes, Bills) with automated line-item totals and real-time inventory adjustments.</>,
+          <>Implemented a GCC VAT compliance engine (10% VAT, zero-rated/exempt items, TRN validation) and audit-ready double-entry bookkeeping with Chart of Accounts, Journal Vouchers, JWT authentication, and Role-Based Access Control (RBAC).</>,
+        ],
+        images: [],
+      },
+      {
+        company: "AsianSol",
+        timeframe: "Jul 2024 - Oct 2024",
+        role: "Full Stack Developer (Lahore, Pakistan)",
+        achievements: [
+          <>Designed a Single Sign-On (SSO) Admin Panel using Angular 15, Angular Material, and .NET 6 REST APIs, serving 500+ users across 3 departments.</>,
+          <>Reduced administrative overhead by 40% by building automated workflows managing 200+ user accounts and 1,500+ task assignments.</>,
+          <>Integrated 20+ RESTful APIs with a 4-member agile team, maintaining a 95% code approval rate and 85% unit test coverage.</>,
+        ],
+        images: [],
       },
     ],
   },
@@ -129,7 +157,7 @@ achievements: [
     institutions: [
       {
         name: "COMSATS University Islamabad",
-        description: <>Bachelor's degree in Computer Science (Feb 2022 – Jan 2026)</>,
+        description: <>Bachelor's degree in Computer Science (Jan 2022 – Jan 2026)</>,
       },
     ],
   },
@@ -215,6 +243,30 @@ technical: {
         },
       ],
       
+    },
+    {
+      title: "Data, Automation & AI",
+      description: (
+        <>Optimizing data pipelines and automating workflows with LLM integrations</>
+      ),
+      tags: [
+        {
+          name: "Snowflake",
+          icon: "database",
+        },
+        {
+          name: "DBT",
+          icon: "server",
+        },
+        {
+          name: "n8n",
+          icon: "rocket",
+        },
+        {
+          name: "LLMs (GPT-4o, Claude, Gemini)",
+          icon: "code",
+        },
+      ],
     },
   ],
 },
